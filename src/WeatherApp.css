@@ -1,0 +1,42 @@
+.weather-container {
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.weather-container.light {
+    background-color: white;
+    color: black;
+}
+
+.weather-container.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.weather-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.theme-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.weather-container.light .title {
+    color: black;
+}
+
+.weather-container.dark .title {
+    color: white;
+}
+

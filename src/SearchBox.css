@@ -1,0 +1,28 @@
+.SearchBox{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.weather-container.dark .MuiInputBase-input {
+    color: white;
+}
+
+.weather-container.dark .MuiInputLabel-root {
+    color: white;
+}
+
+.weather-container.dark .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+
+.weather-container.light .MuiInputBase-input {
+    color: black;
+}
+
+.weather-container.light .MuiInputLabel-root {
+    color: black;
+}
+
+.weather-container.light .MuiOutlinedInput-notchedOutline {
+    border-color: black !important;
+}
