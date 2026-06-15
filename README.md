@@ -1,16 +1,143 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built with **React**, **Vite**, and **Material UI** that provides real-time weather information using the OpenWeather API.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge\&logo=mui)
+![OpenWeather](https://img.shields.io/badge/OpenWeather_API-FFB703?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Application Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌞 Light Mode
 
-## Expanding the ESLint configuration
+![Light Mode](./screenshots/light-mode.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌙 Dark Mode
+
+![Dark Mode](./screenshots/dark-mode.png)
+
+---
+
+## 🚀 Features
+
+* Real-time weather data retrieval
+* Search weather by city name
+* Temperature, humidity, and weather condition display
+* Weather icons for better visualization
+* Dark / Light theme toggle
+* Error handling for invalid city names
+* Responsive and clean user interface
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* Vite
+* Material UI (MUI)
+* JavaScript
+* CSS
+* OpenWeather API
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── SearchBox.jsx
+├── InfoBox.jsx
+├── WeatherApp.jsx
+├── SearchBox.css
+├── InfoBox.css
+├── WeatherApp.css
+└── assets/
+```
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/aashirajpoot/Weather-App.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd Weather-App
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Create Environment Variable
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+### Run the Application
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔄 Application Flow
+
+```text
+User
+  ↓
+Search City
+  ↓
+OpenWeather API
+  ↓
+Fetch Weather Data
+  ↓
+React Components
+  ↓
+Display Weather Information
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me gain practical experience in:
+
+* API Integration
+* React Hooks (useState)
+* Component-Based Architecture
+* Conditional Rendering
+* Environment Variables
+* Git & GitHub
+* Material UI Components
+* Responsive UI Design
+
+---
+
+## 🔮 Future Improvements
+
+* 5-Day Weather Forecast
+* Current Location Weather
+* Search History
+* Weather Charts
+* Enhanced UI Animations
+* Theme Persistence using Local Storage
+
+---
+
+## 👨‍💻 Author
+
+Aashi Rajpoot
